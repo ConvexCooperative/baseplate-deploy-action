@@ -4,7 +4,7 @@ Github action for deploying to baseplate
 
 ## Usage
 
-Within your Github Workflow yaml file, add the following. You'll need to replace `1.1.0` with the latest published version. See [the changelog](/CHANGELOG.md) to find the latest version.
+Within your Github Workflow yaml file, add the following.
 
 ```yml
 # Replace 1.1.0 with the latest version found in CHANGELOG.md

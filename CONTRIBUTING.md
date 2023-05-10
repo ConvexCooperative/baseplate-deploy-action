@@ -12,6 +12,8 @@ pnpm exec changeset add
 2. `git pull`
 3. `pnpm install`
 4. `GITHUB_TOKEN=yourGithubToken pnpm exec changeset version`
-5. `git add . && git commit -m "VERSION NUMBER GOES HERE"`
-6. `git tag -a VERSION -m VERSION`
-7. `git push --follow-tags`
+5. `pnpm run update-docs`
+6. `git add . && git commit -m "VERSION NUMBER GOES HERE"`
+7. `git tag -a VERSION -m VERSION`
+8. `git push --follow-tags`
+9. [Create Github release](https://github.com/ConvexCooperative/baseplate-deploy-action/releases/new) from tags. For release notes, put `See [Changelog](https://github.com/ConvexCooperative/baseplate-deploy-action/blob/main/CHANGELOG.md)`
