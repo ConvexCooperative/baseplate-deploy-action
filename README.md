@@ -7,8 +7,7 @@ Github action for deploying to baseplate
 Within your Github Workflow yaml file, add the following.
 
 ```yml
-# Replace 1.1.0 with the latest version found in CHANGELOG.md
-uses: JustUtahCoders/baseplate-deploy-action@1.1.0
+uses: ConvexCooperative/baseplate-deploy-action@1.1.0
 with:
   baseplate-token: ${{ secrets.BASEPLATE_TOKEN }}
   microfrontend-name: navbar
