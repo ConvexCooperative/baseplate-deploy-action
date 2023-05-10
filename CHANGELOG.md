@@ -1,5 +1,19 @@
 # baseplate-deploy-action
 
+## 1.2.0
+
+### Minor Changes
+
+- [#10](https://github.com/ConvexCooperative/baseplate-deploy-action/pull/10) [`fdf6bcd`](https://github.com/ConvexCooperative/baseplate-deploy-action/commit/fdf6bcd4896201decc629023f0e461c506240d61) Thanks [@joeldenning](https://github.com/joeldenning)! - Upgrade to newest baseplate-cli minor
+
+### Patch Changes
+
+- [#12](https://github.com/ConvexCooperative/baseplate-deploy-action/pull/12) [`fdc28b3`](https://github.com/ConvexCooperative/baseplate-deploy-action/commit/fdc28b3e0a0c8f5c0e170658df720f07dd91a325) Thanks [@joeldenning](https://github.com/joeldenning)! - Ensure latest version number in README docs
+
+- [#8](https://github.com/ConvexCooperative/baseplate-deploy-action/pull/8) [`06c33ad`](https://github.com/ConvexCooperative/baseplate-deploy-action/commit/06c33adb8675df611a4ccb93a95c6ea2d00f23e8) Thanks [@joeldenning](https://github.com/joeldenning)! - Small readme clarification
+
+- [#13](https://github.com/ConvexCooperative/baseplate-deploy-action/pull/13) [`ce8a20c`](https://github.com/ConvexCooperative/baseplate-deploy-action/commit/ce8a20c5393fbdc13262ede4a3b7684b50fdd00a) Thanks [@joeldenning](https://github.com/joeldenning)! - Change references to JustUtahCoders, now that Baseplate is owned by Convex Cooperative
+
 ## 1.1.0
 
 ### Minor Changes
