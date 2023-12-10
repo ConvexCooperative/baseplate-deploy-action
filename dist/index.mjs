@@ -42194,7 +42194,7 @@ module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("zlib");
 
 /***/ }),
 
-/***/ 94042:
+/***/ 29098:
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __nccwpck_require__) => {
 
 
@@ -44852,7 +44852,7 @@ var external_fs_ = __nccwpck_require__(57147);
 const promises_namespaceObject = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("fs/promises");
 // EXTERNAL MODULE: ./node_modules/.pnpm/node-fetch@2.6.8/node_modules/node-fetch/lib/index.js
 var lib = __nccwpck_require__(78040);
-;// CONCATENATED MODULE: ./node_modules/.pnpm/@baseplate-sdk+cli@1.1.2/node_modules/@baseplate-sdk/cli/lib/cli-utils.js
+;// CONCATENATED MODULE: ./node_modules/.pnpm/@baseplate-sdk+cli@1.1.4/node_modules/@baseplate-sdk/cli/lib/cli-utils.js
 // Regrettably, many CI providers don't yet support NodeJS 18.
 // Otherwise, we'd use NodeJS' native fetch implementation
 
@@ -44901,7 +44901,7 @@ function createBaseplateFetch(deployArgs) {
     };
 }
 
-;// CONCATENATED MODULE: ./node_modules/.pnpm/@baseplate-sdk+cli@1.1.2/node_modules/@baseplate-sdk/cli/lib/js-api.js
+;// CONCATENATED MODULE: ./node_modules/.pnpm/@baseplate-sdk+cli@1.1.4/node_modules/@baseplate-sdk/cli/lib/js-api.js
 
 
 
@@ -44909,6 +44909,10 @@ function createBaseplateFetch(deployArgs) {
 
 
 async function deploy(args) {
+    const baseplateToken = args.baseplateToken ?? process.env.BASEPLATE_TOKEN;
+    if (!baseplateToken) {
+        throw Error(`baseplate cli requires a baseplateToken to be passed via arguments or the BASEPLATE_TOKEN environment variable`);
+    }
     log(`Deploying ${args.microfrontendName} to environment ${args.environmentName}`);
     log(`Step 1/4: Authenticate with baseplate API and retrieve organization settings`);
     const baseplateFetch = createBaseplateFetch(args);
@@ -45026,7 +45030,7 @@ async function recurseDir(allFiles, dir, includeParentDirInPath) {
 
 __nccwpck_require__.a(__webpack_module__, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
 /* harmony import */ var _actions_core__WEBPACK_IMPORTED_MODULE_0__ = __nccwpck_require__(67733);
-/* harmony import */ var _baseplate_sdk_cli__WEBPACK_IMPORTED_MODULE_1__ = __nccwpck_require__(94042);
+/* harmony import */ var _baseplate_sdk_cli__WEBPACK_IMPORTED_MODULE_1__ = __nccwpck_require__(29098);
 
 
 

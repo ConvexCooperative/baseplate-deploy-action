@@ -1,12 +1,16 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   '@actions/core':
     specifier: ^1.10.0
     version: 1.10.0
   '@baseplate-sdk/cli':
-    specifier: ^1.1.2
-    version: 1.1.2
+    specifier: ^1.1.4
+    version: 1.1.4
 
 devDependencies:
   '@babel/core':
@@ -1303,8 +1307,8 @@ packages:
       to-fast-properties: 2.0.0
     dev: true
 
-  /@baseplate-sdk/cli@1.1.2:
-    resolution: {integrity: sha512-o9eRKwVEmmepUgNYhSjdk4ZgnoRG37nIARY8SNbhtDuTWC/0T0PWnAIEOTjBeHQHr3gJhJFd/OJZ2UEJ9KQv3g==}
+  /@baseplate-sdk/cli@1.1.4:
+    resolution: {integrity: sha512-OTY6jrtJMh2IUj6Q7JK0seO956H7lOzoFyBOP+6Os9RweFgd3YHGpTS3pKfjB74y9EVfo/RoaHeBFYZ1It5O0Q==}
     hasBin: true
     dependencies:
       '@aws-sdk/client-s3': 3.329.0
