@@ -38,6 +38,6 @@
   },
   "dependencies": {
     "@actions/core": "^1.10.0",
-    "@baseplate-sdk/cli": "^1.1.2"
+    "@baseplate-sdk/cli": "^1.1.4"
   }
 }
