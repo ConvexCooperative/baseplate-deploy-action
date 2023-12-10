@@ -1,5 +1,11 @@
 # baseplate-deploy-action
 
+## 1.2.1
+
+### Patch Changes
+
+- [#14](https://github.com/ConvexCooperative/baseplate-deploy-action/pull/14) [`ea8f719`](https://github.com/ConvexCooperative/baseplate-deploy-action/commit/ea8f719e584e5c5a1a5520a4c6aab07ea3a17908) Thanks [@joeldenning](https://github.com/joeldenning)! - Upgrade baseplate cli
+
 ## 1.2.0
 
 ### Minor Changes
