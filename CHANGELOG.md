@@ -1,5 +1,21 @@
 # baseplate-deploy-action
 
+## 2.0.0
+
+### Major Changes
+
+- [#17](https://github.com/ConvexCooperative/baseplate-deploy-action/pull/17) [`523fdfd`](https://github.com/ConvexCooperative/baseplate-deploy-action/commit/523fdfd2d0344d22098a174f9495bb42b2af581a) Thanks [@joeldenning](https://github.com/joeldenning)! - Upgrade to NodeJS 20
+
+- [#17](https://github.com/ConvexCooperative/baseplate-deploy-action/pull/17) [`523fdfd`](https://github.com/ConvexCooperative/baseplate-deploy-action/commit/523fdfd2d0344d22098a174f9495bb42b2af581a) Thanks [@joeldenning](https://github.com/joeldenning)! - Mark inputs as required
+
+### Minor Changes
+
+- [#17](https://github.com/ConvexCooperative/baseplate-deploy-action/pull/17) [`523fdfd`](https://github.com/ConvexCooperative/baseplate-deploy-action/commit/523fdfd2d0344d22098a174f9495bb42b2af581a) Thanks [@joeldenning](https://github.com/joeldenning)! - Support for the auto-version input
+
+### Patch Changes
+
+- [#16](https://github.com/ConvexCooperative/baseplate-deploy-action/pull/16) [`9a55f67`](https://github.com/ConvexCooperative/baseplate-deploy-action/commit/9a55f677ea3a0dd09ab8ebb1d2f731a54c86b0ae) Thanks [@joeldenning](https://github.com/joeldenning)! - Upgrade dependencies
+
 ## 1.2.1
 
 ### Patch Changes
