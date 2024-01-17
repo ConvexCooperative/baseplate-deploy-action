@@ -70129,11 +70129,12 @@ __nccwpck_require__.a(__webpack_module__, async (__webpack_handle_async_dependen
 
 try {
   await (0,_baseplate_sdk_cli__WEBPACK_IMPORTED_MODULE_1__/* .deploy */ .F)({
-    baseplateToken: (0,_actions_core__WEBPACK_IMPORTED_MODULE_0__.getInput)("baseplate-token"),
-    dir: (0,_actions_core__WEBPACK_IMPORTED_MODULE_0__.getInput)("upload-dir"),
-    entry: (0,_actions_core__WEBPACK_IMPORTED_MODULE_0__.getInput)("entry-file"),
-    environmentName: (0,_actions_core__WEBPACK_IMPORTED_MODULE_0__.getInput)("environment-name"),
-    microfrontendName: (0,_actions_core__WEBPACK_IMPORTED_MODULE_0__.getInput)("microfrontend-name"),
+    baseplateToken: (0,_actions_core__WEBPACK_IMPORTED_MODULE_0__.getInput)("baseplate-token", { required: true }),
+    dir: (0,_actions_core__WEBPACK_IMPORTED_MODULE_0__.getInput)("upload-dir", { required: true }),
+    entry: (0,_actions_core__WEBPACK_IMPORTED_MODULE_0__.getInput)("entry-file", { required: true }),
+    environmentName: (0,_actions_core__WEBPACK_IMPORTED_MODULE_0__.getInput)("environment-name", { required: true }),
+    microfrontendName: (0,_actions_core__WEBPACK_IMPORTED_MODULE_0__.getInput)("microfrontend-name", { required: true }),
+    autoVersion: (0,_actions_core__WEBPACK_IMPORTED_MODULE_0__.getBooleanInput)("auto-version", { required: false }),
   });
 } catch (err) {
   console.error(err);

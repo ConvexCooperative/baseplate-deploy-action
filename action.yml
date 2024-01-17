@@ -12,6 +12,8 @@ inputs:
     description: The directory containing all files for this microfrontend's deployment
   entry-file:
     description: The entry file that will be put into the import map. This is a relative file path within the upload dir.
+  auto-version:
+    description: Whether baseplate should upload deployed files under an auto-versioned virtual folder, to avoid collisions with previous deployments.
 runs:
-  using: "node16"
+  using: "node20"
   main: "dist/index.mjs"
