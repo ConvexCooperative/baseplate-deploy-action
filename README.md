@@ -14,6 +14,7 @@ with:
   environment-name: prod
   upload-dir: dist
   entry-file: main.js
+  auto-version: true
 ```
 
 ### Inputs
@@ -47,6 +48,12 @@ The file path (relative to cwd) of a directory that will be uploaded as part of 
 (string)
 
 The file path (relative to `upload-dir`) of the main entry file for your microfrontend. This entry file goes into the import map and is the first file downloaded when your microfrontend is loaded in the browser.
+
+#### auto-version
+
+(boolean)
+
+When true, the deployed files will be included under a uniquely-named virtual folder in Baseplate CDN and S3 Object Storage. This is helpful for avoiding file naming collisions between deployments of the same microfrontend.
 
 ### Outputs
 
